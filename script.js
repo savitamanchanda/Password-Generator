@@ -14,10 +14,10 @@ function generatePassword() {
 nCharacters = window.prompt("How many characters do you want?");
 console.log(nCharacters);
 
-if ((nCharacters <= 8) || (nCharacters >= 128) || (nCharacters !== Number)) {
+if ((nCharacters <= 8) || (nCharacters >= 128)) {
   window.alert("Incorrect value, number of characters must be between 8 and 128.")
   return generatePassword();
-}
+} 
 
 isSpecialChar = window.confirm("Click OK to confirm including special characters.");
 console.log(specialCharacters);
@@ -26,7 +26,8 @@ isNumericChar = window.confirm("Click OK to confirm including numerical values."
 
 isUpperCase = window.confirm("Click OK to confirm including Upper Case characters.");
 
-isLowerCase = window.confirm("Click OK to confirm including Lower Case characters.");
+isLowerCase = window.confirm("Click OK to confirm including Lower Case characters."); 
+
 
 var possibleOption = [];
 
