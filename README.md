@@ -30,6 +30,6 @@ Please refer to the LICENSE in the repo.
 [screenshot-7](./assets%3Aimages/7.png)
 [screenshot-8](./assets%3Aimages/8.png)
 
-* The URL of the deployed application - 
+* The URL of the deployed application - https://savitamanchanda.github.io/Protected-Password-Generator/
 
 * The URL of the GitHub repository - https://github.com/savitamanchanda/Protected-Password-Generator
